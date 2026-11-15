@@ -37,3 +37,9 @@ results_inventory.txt
 .env
 .env.*
 !.env.example
+
+# Local dataset path manifests
+results_caltech256/hybrid_features/cnn_paths_*.txt
+
+# Local dataset path manifests
+results_caltech256/hybrid_features/cnn_paths_*.txt
