@@ -10,8 +10,7 @@ The project combines SIFT-based Bag of Visual Words (BoVW) representations with 
 
 Rather than assuming that combining different feature representations improves performance, this project experimentally examines whether local keypoint-based information provides additional discriminative value beyond CNN features.
 
-> **Principal finding:** Under the tested SIFT-BoVW representations, classifiers, and fusion strategies, consistent improvements over CNN-only baselines were not observed. This highlights an important research question in hybrid computer vision: combining different feature representations does not necessarily produce complementary predictive information.
-
+> **Principal finding:** Under the tested SIFT-BoVW representations, classifiers, and fusion strategies, consistent improvements over CNN-only baselines were not observed.
 ---
 
 ## Research Objectives
