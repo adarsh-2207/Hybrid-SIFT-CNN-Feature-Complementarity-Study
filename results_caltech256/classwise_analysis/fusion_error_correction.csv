@@ -1,0 +1,3 @@
+fusion_model,cnn_errors_corrected,cnn_correct_predictions_damaged,both_correct,both_wrong,net_correct_change
+Raw_Late_Fusion,1,2,3379,1090,-1
+Temperature_Scaled_Fusion,2,5,3376,1089,-3

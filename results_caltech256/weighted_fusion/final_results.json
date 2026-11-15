@@ -1,0 +1,12 @@
+{
+  "selected_C": 0.1,
+  "selected_sift_weight": 0.25,
+  "validation_accuracy": 0.78531452876651,
+  "validation_macro_f1": 0.7662845878093277,
+  "weighted_hybrid_accuracy": 0.776386404293381,
+  "weighted_hybrid_macro_f1": 0.7574589577850424,
+  "cnn_only_accuracy": 0.774597495527728,
+  "cnn_only_macro_f1": 0.7559439028392948,
+  "sift_only_accuracy": 0.17754919499105545,
+  "sift_only_macro_f1": 0.13584901477311095
+}

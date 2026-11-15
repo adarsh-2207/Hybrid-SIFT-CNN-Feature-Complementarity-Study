@@ -1,0 +1,24 @@
+{
+    "selected_pca_components": 32,
+    "selected_total_dimensions": 608,
+    "selected_explained_variance": 0.3767412304878235,
+    "selection_metric": "validation_macro_f1",
+    "cnn_control": {
+        "best_epoch": 20,
+        "val_macro_f1": 0.7394435902509557
+    },
+    "test_results": [
+        {
+            "model": "CNN_only",
+            "accuracy": 0.7560375670840788,
+            "macro_f1": 0.7327444633372139,
+            "weighted_f1": 0.753330187327134
+        },
+        {
+            "model": "PCA_Hybrid_32",
+            "accuracy": 0.7506708407871199,
+            "macro_f1": 0.7300798444498268,
+            "weighted_f1": 0.7495854963378884
+        }
+    ]
+}

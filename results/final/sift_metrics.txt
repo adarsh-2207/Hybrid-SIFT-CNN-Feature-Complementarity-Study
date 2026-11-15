@@ -1,0 +1,10 @@
+Vocabulary size: 256
+SVM C: 10
+Random seed: 42
+Train images: 6026
+Validation images: 1256
+Test images: 1395
+Validation Accuracy: 0.425159
+Validation Macro-F1: 0.257066
+Test Accuracy: 0.408602
+Test Macro-F1: 0.257347

@@ -1,0 +1,14 @@
+{
+  "selected_C": 0.1,
+  "selected_sift_weight": 0.0,
+  "validation_accuracy": 0.9609872611464968,
+  "validation_macro_f1": 0.9333627656586382,
+  "cnn_only_accuracy": 0.9591397849462365,
+  "cnn_only_macro_f1": 0.9419211020185385,
+  "sift_only_accuracy": 0.36989247311827955,
+  "sift_only_macro_f1": 0.23985006531223102,
+  "weighted_hybrid_accuracy": 0.9591397849462365,
+  "weighted_hybrid_macro_f1": 0.9419211020185385,
+  "accuracy_delta_pp": 0.0,
+  "macro_f1_delta_pp": 0.0
+}

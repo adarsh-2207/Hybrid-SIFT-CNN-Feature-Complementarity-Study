@@ -1,0 +1,18 @@
+{
+    "dataset": "Caltech-101",
+    "selected_alpha_cnn": 1.0,
+    "selected_alpha_sift": 0.0,
+    "validation_macro_f1": 0.9333627656586382,
+    "test_cnn_only": {
+        "accuracy": 0.9591397849462365,
+        "macro_f1": 0.9419211020185385
+    },
+    "test_sift_only": {
+        "accuracy": 0.36989247311827955,
+        "macro_f1": 0.23985006531223102
+    },
+    "test_late_fusion": {
+        "accuracy": 0.9591397849462365,
+        "macro_f1": 0.9419211020185385
+    }
+}

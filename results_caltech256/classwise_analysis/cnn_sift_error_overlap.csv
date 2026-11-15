@@ -1,0 +1,5 @@
+pattern,count,percentage
+CNN_correct_SIFT_correct,887,19.8345259391771
+CNN_correct_SIFT_wrong,2494,55.76923076923077
+CNN_wrong_SIFT_correct,60,1.3416815742397137
+CNN_wrong_SIFT_wrong,1031,23.054561717352414

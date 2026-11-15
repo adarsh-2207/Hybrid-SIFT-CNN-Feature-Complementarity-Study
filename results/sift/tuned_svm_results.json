@@ -1,0 +1,110 @@
+{
+  "search_space": {
+    "C": [
+      1,
+      10,
+      100
+    ],
+    "gamma": [
+      "scale",
+      0.001,
+      0.003,
+      0.01
+    ]
+  },
+  "selection_metric": "validation_macro_f1",
+  "best_parameters": {
+    "C": 10,
+    "gamma": "scale"
+  },
+  "best_validation_macro_f1": 0.2520091115333371,
+  "best_validation_accuracy": 0.428343949044586,
+  "test_accuracy": 0.403584229390681,
+  "test_macro_f1": 0.2558032037594753,
+  "all_results": [
+    {
+      "C": 10,
+      "gamma": "scale",
+      "val_accuracy": 0.428343949044586,
+      "val_macro_f1": 0.2520091115333371,
+      "time_seconds": 3.702227830886841
+    },
+    {
+      "C": 100,
+      "gamma": "scale",
+      "val_accuracy": 0.428343949044586,
+      "val_macro_f1": 0.25127954235254557,
+      "time_seconds": 3.712820291519165
+    },
+    {
+      "C": 1,
+      "gamma": "scale",
+      "val_accuracy": 0.39570063694267515,
+      "val_macro_f1": 0.18191872686795196,
+      "time_seconds": 3.3504109382629395
+    },
+    {
+      "C": 100,
+      "gamma": 0.01,
+      "val_accuracy": 0.1823248407643312,
+      "val_macro_f1": 0.011222452294490533,
+      "time_seconds": 3.2767093181610107
+    },
+    {
+      "C": 100,
+      "gamma": 0.003,
+      "val_accuracy": 0.1393312101910828,
+      "val_macro_f1": 0.0051940216048036525,
+      "time_seconds": 3.267512083053589
+    },
+    {
+      "C": 1,
+      "gamma": 0.001,
+      "val_accuracy": 0.09554140127388536,
+      "val_macro_f1": 0.0017269168777342852,
+      "time_seconds": 2.9817569255828857
+    },
+    {
+      "C": 1,
+      "gamma": 0.003,
+      "val_accuracy": 0.09554140127388536,
+      "val_macro_f1": 0.0017269168777342852,
+      "time_seconds": 3.0051281452178955
+    },
+    {
+      "C": 1,
+      "gamma": 0.01,
+      "val_accuracy": 0.09554140127388536,
+      "val_macro_f1": 0.0017269168777342852,
+      "time_seconds": 3.0320379734039307
+    },
+    {
+      "C": 10,
+      "gamma": 0.001,
+      "val_accuracy": 0.09554140127388536,
+      "val_macro_f1": 0.0017269168777342852,
+      "time_seconds": 3.046250820159912
+    },
+    {
+      "C": 10,
+      "gamma": 0.003,
+      "val_accuracy": 0.09554140127388536,
+      "val_macro_f1": 0.0017269168777342852,
+      "time_seconds": 3.102299928665161
+    },
+    {
+      "C": 10,
+      "gamma": 0.01,
+      "val_accuracy": 0.09554140127388536,
+      "val_macro_f1": 0.0017269168777342852,
+      "time_seconds": 3.206437110900879
+    },
+    {
+      "C": 100,
+      "gamma": 0.001,
+      "val_accuracy": 0.09554140127388536,
+      "val_macro_f1": 0.0017269168777342852,
+      "time_seconds": 3.19464111328125
+    }
+  ]
+}

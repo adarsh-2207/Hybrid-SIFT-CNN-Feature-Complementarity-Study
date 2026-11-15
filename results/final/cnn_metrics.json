@@ -1,0 +1,17 @@
+{
+  "model": "ResNet-18",
+  "pretraining": "ImageNet",
+  "num_classes": 101,
+  "train_images": 6026,
+  "validation_images": 1256,
+  "test_images": 1395,
+  "epochs": 15,
+  "batch_size": 32,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "validation_accuracy": 0.9609872611464968,
+  "validation_macro_f1": 0.9339163290263472,
+  "test_accuracy": 0.9577060931899641,
+  "test_macro_f1": 0.9403600844202722
+}

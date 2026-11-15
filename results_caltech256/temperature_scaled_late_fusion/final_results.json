@@ -1,0 +1,58 @@
+{
+    "cnn_temperature": 2.154042056394845,
+    "sift_temperature": 1.4642920293573187,
+    "selected_alpha_cnn": 0.8,
+    "selected_alpha_sift": 0.19999999999999996,
+    "selection_metric": "validation_macro_f1",
+    "calibration_method": "temperature_scaling",
+    "test_results": [
+        {
+            "model": "CNN_raw",
+            "accuracy": 0.7560375670840788,
+            "macro_f1": 0.7327444633372139,
+            "weighted_f1": 0.753330187327134,
+            "nll": 1.4493100177858425,
+            "ece": 0.1422471581276819
+        },
+        {
+            "model": "SIFT_raw",
+            "accuracy": 0.21176207513416817,
+            "macro_f1": 0.15444259685253486,
+            "weighted_f1": 0.18213542186035503,
+            "nll": 4.183026088310779,
+            "ece": 0.08622453465378029
+        },
+        {
+            "model": "CNN_temperature_scaled",
+            "accuracy": 0.7560375670840788,
+            "macro_f1": 0.7327444633372139,
+            "weighted_f1": 0.753330187327134,
+            "nll": 1.0160803114983181,
+            "ece": 0.01641877304116176
+        },
+        {
+            "model": "SIFT_temperature_scaled",
+            "accuracy": 0.21176207513416817,
+            "macro_f1": 0.15444259685253486,
+            "weighted_f1": 0.18213542186035503,
+            "nll": 4.003257057927812,
+            "ece": 0.04214577665569159
+        },
+        {
+            "model": "Late_fusion_raw",
+            "accuracy": 0.7558139534883721,
+            "macro_f1": 0.7325940800618984,
+            "weighted_f1": 0.7531545882971312,
+            "nll": 1.2910668763844453,
+            "ece": 0.11474353948704674
+        },
+        {
+            "model": "Late_fusion_temperature_scaled",
+            "accuracy": 0.7553667262969589,
+            "macro_f1": 0.732129285513468,
+            "weighted_f1": 0.7524951680589262,
+            "nll": 1.1427853805981378,
+            "ece": 0.13759235947931014
+        }
+    ]
+}

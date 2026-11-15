@@ -1,0 +1,29 @@
+[
+    {
+        "model": "CNN",
+        "input_dim": 576,
+        "best_epoch": 11,
+        "val_macro_f1": 0.7325475385500693,
+        "test_accuracy": 0.748211091234347,
+        "test_macro_f1": 0.7265748607182341,
+        "test_weighted_f1": 0.7477148856466354
+    },
+    {
+        "model": "SIFT",
+        "input_dim": 256,
+        "best_epoch": 20,
+        "val_macro_f1": 0.14609087217930203,
+        "test_accuracy": 0.20348837209302326,
+        "test_macro_f1": 0.1504952932059406,
+        "test_weighted_f1": 0.18198894640248053
+    },
+    {
+        "model": "HYBRID",
+        "input_dim": 832,
+        "best_epoch": 15,
+        "val_macro_f1": 0.7280597247681255,
+        "test_accuracy": 0.7417262969588551,
+        "test_macro_f1": 0.7178516612403426,
+        "test_weighted_f1": 0.7397988341274374
+    }
+]

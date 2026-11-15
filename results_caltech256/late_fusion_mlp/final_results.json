@@ -1,0 +1,27 @@
+{
+    "selected_alpha_cnn": 0.75,
+    "selected_alpha_sift": 0.25,
+    "selection_metric": "validation_macro_f1",
+    "cnn_best_epoch": 20,
+    "sift_best_epoch": 16,
+    "results": [
+        {
+            "model": "CNN_only",
+            "accuracy": 0.7560375670840788,
+            "macro_f1": 0.7327444633372139,
+            "weighted_f1": 0.753330187327134
+        },
+        {
+            "model": "SIFT_only",
+            "accuracy": 0.21176207513416817,
+            "macro_f1": 0.15444259685253486,
+            "weighted_f1": 0.18213542186035503
+        },
+        {
+            "model": "Late_fusion",
+            "accuracy": 0.7558139534883721,
+            "macro_f1": 0.7327276456657006,
+            "weighted_f1": 0.7531010137457186
+        }
+    ]
+}

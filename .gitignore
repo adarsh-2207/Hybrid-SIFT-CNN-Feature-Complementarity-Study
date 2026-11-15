@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Datasets and archives
+caltech-101/
+caltech-256/
+data/
+data_caltech256/
+*.zip
+*.tar
+*.tar.gz
+
+# Large generated feature arrays and model artifacts
+*.npy
+*.pth
+*.pt
+*.pkl
+*.joblib
+
+# Temporary files
+results_inventory.txt
+.ipynb_checkpoints/
+
+# Environment secrets
+.env
+.env.*
+!.env.example

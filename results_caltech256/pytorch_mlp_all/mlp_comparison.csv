@@ -1,0 +1,4 @@
+model,input_dimensions,best_epoch,accuracy,macro_f1,training_time_minutes,checkpoint,accuracy_percent,macro_f1_percent
+CNN + PyTorch MLP,512,18,0.7903719912472648,0.7723587069534992,2.77,/content/AI-Based-Vision-Systems/AI-Based Vision Systems/results/fresh_colab_run/pytorch_mlp_all/models/cnn_mlp_best.pth,79.04,77.24
+Hybrid + PyTorch MLP,768,22,0.7757111597374179,0.755518234388741,4.02,/content/AI-Based-Vision-Systems/AI-Based Vision Systems/results/fresh_colab_run/pytorch_mlp_all/models/hybrid_mlp_best.pth,77.57,75.55
+SIFT + PyTorch MLP,256,15,0.21050328227571116,0.1519308724499791,1.85,/content/AI-Based-Vision-Systems/AI-Based Vision Systems/results/fresh_colab_run/pytorch_mlp_all/models/sift_mlp_best.pth,21.05,15.19

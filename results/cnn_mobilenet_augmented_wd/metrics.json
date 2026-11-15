@@ -1,0 +1,14 @@
+{
+  "model": "MobileNetV3-Small",
+  "dataset": "Caltech-101",
+  "seed": 42,
+  "best_epoch": 15,
+  "best_val_macro_f1": 0.8975444122698872,
+  "test_loss": 1.070149446730118,
+  "test_accuracy": 0.9469534050179211,
+  "test_macro_f1": 0.9265653836130181,
+  "batch_size": 32,
+  "epochs": 15,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.001
+}

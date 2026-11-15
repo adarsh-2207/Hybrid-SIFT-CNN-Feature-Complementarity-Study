@@ -1,0 +1,20 @@
+{
+  "model": "SIFT + BoVW + RBF-SVM",
+  "dataset": "Caltech-256",
+  "seed": 42,
+  "num_classes": 256,
+  "vocabulary_size": 256,
+  "max_descriptors": 100000,
+  "max_descriptors_per_image_for_vocabulary": 50,
+  "svm_kernel": "rbf",
+  "svm_C": 10,
+  "train_images": 20841,
+  "validation_images": 4467,
+  "test_images": 4472,
+  "validation_accuracy": 0.20035818222520707,
+  "validation_macro_f1": 0.15121897627441616,
+  "test_accuracy": 0.19767441860465115,
+  "test_macro_f1": 0.14574677372745415,
+  "vocabulary_fitted_on": "training images only",
+  "histogram_normalization": "L1"
+}
